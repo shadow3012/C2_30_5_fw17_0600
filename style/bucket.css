@@ -1,0 +1,42 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: cadetblue;
+
+}
+
+.coffeebox{
+    background-color: blueviolet;
+    height: 300px;
+}
+.coffeebox img{
+    width: 95%;
+    margin: auto;
+    height: 55%;
+}
+.coffeebox button{
+    background-color: darkgray;
+}
+#total_amount{
+    text-align: center;
+    background-color: chocolate;
+}
+body{
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+#confirm_checkout{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+
+}

@@ -1,0 +1,53 @@
+#navbar{
+    display: flex;
+    justify-content: end;
+    background-color: aqua;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#navbar h3{
+    padding: 5px;
+    height: 100%;
+    
+    
+    
+}
+body{
+    background-color: darkgoldenrod;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+#menu button{
+    background-color: darkgray;
+}
+.coffeebox{
+    background-color: blueviolet;
+    height: 300px;
+}
+.coffeebox img{
+    width: 95%;
+    margin: auto;
+    height: 55%;
+}
+#coffee_count{
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
